@@ -12,5 +12,5 @@ Console.WriteLine("5" + "5");
 // ve ilerde göreceğimiz olumlu ve olumsuz olarak kullanılan true,false türünüde burda yazdırabiliriz
 Console.WriteLine(10 > 0);
 // burdada 10 0'dan büyükmü diye soru sordum büyük olduğu için true dönecektir
-// anlayacağınız metin yazarken "(tek tırnak) semboli içinden yazılır
+// anlayacağınız metin yazarken "(çivt tırnak) semboli içinden yazılır
 // matematik işlem yapacağınız sayılar sade yazılır
