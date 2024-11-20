@@ -1,0 +1,49 @@
+// karar yapıları proğramda önemli bölümlerden biridir 
+// bazı sorular sorup soruların sonucunda bunu yap der gibi çalışıyor
+
+// genelde kullanılan 3 karar yapısı vardır if else swich case ve üçlü operatör var
+
+// if else kullanımı genel olarak çoğu dilde kullanılır
+// gelin bir karar yapısı yapalım havadurumunu alsın ve duruma göre açık,bulutlu,yağışlı gibi durumlarda ne yapması gerektiğini söylediğimiz bir kod yazalım
+string hava_durumu = "açık";
+if(hava_durumu == "açık"){
+Console.WriteLine("çıkabilirsin");
+}
+else if(hava_durumu == "bulutlu"){
+Console.WriteLine("şemsiye alsan iyi olur");
+}
+else if(hava_durumu == "yağışlı"){
+Console.WriteLine("çıkma boşver");
+}
+else{
+Console.WriteLine("hatalı mevsim girildi");
+}
+// bu örnekte kullanılan if eğer buysa demek gibi düşünebilirseniz else if'i bunlar değilse bu olabilir anlamında düşünebiliriz
+// sadece else kelimesi sonda kullanılır bunların hiçbiri değilse bura gir anlamında düşünülebilir
+// kullanım sırasını karıştıramazsınız hata verir
+// gelin bakalım bu örneği swich case üzerinden bakalım
+string hava_d = "yağışlı";
+swich(hava_ d)
+{
+case "açık":
+Console.WriteLine("çıkabilirsin");
+break;
+case "bulutlu":
+Console.WriteLine("bulutlu sen bilirsin");
+break;
+case "yağışlı":
+Console.WriteLine("otur bu yağmurda nereye");
+break;
+default:
+Console.WriteLine("hatalı hava durumu girişi");
+break;
+}
+// swich yazdıktan sonra örnekteki gibi ()(parantez) açıp içine kontrol edeceği değişkeni koyup içinde case kelimesi ile kontrol ediliyor ve doğruladığı yerde break kodu sayesinde karar yapısından çıkıyor
+// eğer değişkendeki değer sorguladığımız değişkende yoksa default bölümüne girer
+// ve şimdide üçlü operatöre geçelim
+// bu fazla bilinmez zaten fazla bir işe yaramaz ama kullanımı kısa ve sade olduğu için gerektiği yerde kullanılması sade ve temiz kod sunar
+// bu örneği bide üçlü operatör üzerinde oluşturalım
+string hava_d = "bulutlu";
+Console.WriteLine(hava_d == "açık" ? "çıkabilirsin" : hava_d == "bulutlu" ? "şemsiye al bakalım" : hava_d == "yağışlı" ? "yağmur varmış dikkat et" : "hatalı hava durumu");
+//evet buda bu şekilde kullanılır, soru sorar ?(soru işareti) koyup ne yapacağı yazılır sonra :(iki nokta) koyarak tekrar soru sora biliriz yada bu seferde bu değerler gelmezse ne yapacağını belirtebilirz
+// evet karar yapıları kabadan bu şekilde kullanılır
