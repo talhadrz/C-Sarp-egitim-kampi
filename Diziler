@@ -1,0 +1,25 @@
+// Diziler değişkenlerin uzun haline denir mesela bir int değişkeni bir sayı tutabilirken bir int dizisi birden fazla sayı tutar
+// dizi oluşturma dizi oluşturacağımız değişkeni seçmeliyiz ve uzunluğunu ayarlamalıyız
+// Örnek
+int[] dizi = new int[10];
+// burda ilk [](Köşeli parantez) sembolimiz bunun bir dizi olduğunu gösteriyor ikinci [] sembolimizin içine dizinin uzunluğu yazılır bu örnekteki dizimiz on sayı tutabilir
+// değer nasıl atanır nasıl okunur
+dizi[0] = 10;
+Console.WriteLine(dizi[0]);
+// proğramlama dilinde sayma 1'den değil 0'dan başlar bundan dolayı 0 yazdım değişkenlerden fazla farkı yok sadece [] semboli ve kaçıncı hanesi olduğunu belirtmek için içine sıra numaralarını belirtiliyor
+// ve oluşturduğunuz dizinin tümüne değer atamak zorunda değilsiniz değer atanmadığında değişkenin pasif değerini atar
+// sayısal diziler için 0
+// karakter dizileri için " "(boşluk)
+// olumlu,olumsuz dizileri için false(olumsuz)
+//değerlerini atayacaktır
+Console.WriteLine(dizi[1]);
+// bu kurallara göre bu parçanın çıktısı 0 olur
+// ve dizilerin değerlerini ilk oluştururken direk içine {}(düslü parantez)'leri kullanarak ekleyebilirsiniz Örneğin
+strting[] ad = {"Talha","Fatma","Ali","Murat"};
+// bu şekilde, ve bu şekilde kullanıldığında fark ettiyseniz dizinin uzunluğunu ayrıca belirtmiyoruz kendisi otomatik içindeki uzunluğa göre ayarlanıyor 
+// hem elle uzunluğunu belirttiğimizde hemde bu şekilde yaptrığımızda bu  uzunluğu başka bir yerde tekrar değiştirilmiyor
+
+
+
+
+
