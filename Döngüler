@@ -1,0 +1,35 @@
+// 4 döngü vardır for, foreach, while, do while
+
+// 1. for döngüsü üç aşaması olur 
+// 1. başlangıç değeri atanır
+// 2. bitiş değeri atanır
+// 3. ve değerin artış şekli
+// ve {}(süslü parantez)'ler içinde dönecek-tekrar edecek kodlar olur
+// ÖRNEK
+for(int i = 1; i <= 10; i+=1)
+{
+//Dönecek kod
+}
+
+// 2. foreach bu aslında döngü değil ama döngü gibi çalışıyor bunun çalışma mantığı sen bir dizi verirsin buda o diziyi parça parça sana okur
+int[] yaslar = {12,9,15,22,45,35};
+foreach(var item in yaslar)
+{
+Console.WriteLine(item);
+}
+// bu kodda yaslar dizisinin 0. değerinden sonuncu değerine kadar tüm değerleri tek tek var değişkenine atıyor ve o veriler üzerinde işlemler yapılıyor
+
+// 3. while döngüsü 
+while(olumlu olumsuz bir değer)
+{
+//tekrar edecek-dönecek kod 
+}
+//bu döngüde ilk parantezin içine true dönecek değer atanır ve o değer false olana denk süslü parantezlerinin içindeki kodlar tekrar eder
+
+// 4. do while döngüsü
+do
+{
+kod
+}while(true);
+// do while'de while döngüsü gibi kullanılıyor tek farkları while döngüsündeki değer false(olumsuz)'sa kodu hiç okumaz ve do whilede ise bu durum kodu bir kere okur ve bitirir
+
